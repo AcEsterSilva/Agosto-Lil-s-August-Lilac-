@@ -1,21 +1,29 @@
+Arquivo estilo CSS
+Estudante: Acsa Ester Carvalho Lima da Silva  nº:31  
+2ºB
+
 body {
-background-color: #ffe6f0;
-font-family: Arial, sans-serif;
+background-color: #FFC0CB
+font-family: Montserrat
 padding: 20px;
+margin: 0;
 }
-h1 {
-color: #b30059;
-font-size: 32px;
+
+header {
+background-color: #EE82EE
+color: black;
+padding: 20px;
 text-align: center;
 }
+
+h1  {
+font-size: 32px;
+margin: 0;
+}
+
+main {
+margin: 30px auto;
+max-width: 800px;
+}
+
 p {
-color: #333;
-font-size: 20px;
-line-height: 1.5;
-}
-img {
-display: block;
-margin: 20px auto;
-border: 3px solid #b30059;
-border-radius: 10px;
-}
