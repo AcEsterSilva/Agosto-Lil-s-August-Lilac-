@@ -1,52 +1,67 @@
-Arquivo estilo CSS
-Estudante: Acsa Ester Carvalho Lima da Silva  nº:31  
-2ºB
+/* Adicionando a importação da fonte Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
 
-body{
-background-color: #FFC0CB;
-font-family: Montserrat
-padding: 20px;
-margin: 0;
+body {
+    background-color: #ffc0cb; /* Cor de fundo rosa claro */
+    font-family: 'Montserrat', sans-serif; /* Definindo a fonte Montserrat */
+    padding: 20px;
+    margin: 0;
 }
 
-header{
-background-color: #DB7093;
-color: white;
-padding: 20px;
-text-align: center;
+header {
+    background-color: #DB7093; /* Cor de fundo do header */
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
 
 h1 {
-font-size: 32px;
-margin: 0;
+    font-size: 32px;
+    margin: 0;
 }
 
-main{
-margin: 30px auto;
-max-width: 800px;
+main {
+    margin: 30px auto;
+    max-width: 800px;
 }
 
-p{
-font-size: 20px;
-color: #333;
-line-height: 1.6;
-margin-bottom: 15px;
+p {
+    font-size: 20px;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 15px;
 }
 
-img{
-display: block;
-margin: 20px auto;
-max-width: 100%;
-border: 3px solid#FFB6C1;
-border-radius: 10px;
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border: 3px solid #FFB6C1; /* Cor do borda das imagens */
+    border-radius: 10px; /* Bordas arredondadas nas imagens */
 }
 
-footer{
-background-color:#FFE4E1;
-color: #555;
-text-align: center;
-padding: 15px;
-margin-top: 40px;
-font-size: 14px;
+footer {
+    background-color: #FFE4E1; /* Cor de fundo do footer */
+    color: #555;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    font-size: 14px;
 }
+
+/* Responsividade para telas pequenas */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}
+
 
