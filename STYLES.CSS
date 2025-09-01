@@ -36,7 +36,7 @@ img {
     display: block;
     margin: 20px auto;
     max-width: 100%;
-    border: 3px solid #FFB6C1; /* Cor do borda das imagens */
+    border: 3px solid #FFB6C1; /* Cor da borda das imagens */
     border-radius: 10px; /* Bordas arredondadas nas imagens */
 }
 
@@ -52,16 +52,14 @@ footer {
 /* Responsividade para telas pequenas */
 @media screen and (max-width: 768px) {
     h1 {
-        font-size: 28px;
+        font-size: 28px; /* Ajuste no tamanho do título */
     }
 
     p {
-        font-size: 18px;
+        font-size: 18px; /* Ajuste no tamanho do texto */
     }
 
     footer {
-        font-size: 12px;
+        font-size: 12px; /* Ajuste no tamanho do texto no footer */
     }
 }
-
-
